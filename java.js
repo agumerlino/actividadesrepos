@@ -8,7 +8,7 @@ function validacion()
     var mensajePerdiste = "Lo siento, perdiste";
     var pista1 = "Es un equipo de Los Angeles";
     var pista2 = "Empieza con L";
-    var pista3 = "Equipo donde triunfo el gran Kobe Bryant";
+    
     var lebron = document.getElementById("lebron");
 
     
@@ -28,11 +28,11 @@ function validacion()
         }
         if(contador == 2){
             document.getElementById("parrafo").innerHTML="Te queda 2 intentos";
-            document.getElementById("pista").innerHTML="Pista: "+pista2;
+            document.getElementById("pista").innerHTML="Pista: "+pista1;
         }
         if(contador == 3){
             document.getElementById("parrafo").innerHTML="Ultimo intento";
-            document.getElementById("pista").innerHTML="Pista: "+pista3;
+            document.getElementById("pista").innerHTML="Pista: "+pista2;
         }
         if(contador == 4){
             document.getElementById("parrafo").innerHTML=mensajePerdiste;
